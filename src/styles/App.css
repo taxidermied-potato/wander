@@ -1,0 +1,143 @@
+@import url("https://fonts.googleapis.com/css?family=Palanquin|Raleway|Nunito|Sen&display=swap");
+
+/* Transitions */
+
+.page {
+  position: absolute;
+  left: 15px;
+  right: 15px;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: scale(1.1);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: scale(1);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.fade-background {        
+  -webkit-animation: fade 1s ; 
+  animation: fade 1s ;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fade {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+/* End Transitions */
+
+body {
+  background: rgb(36, 36, 48);
+  color: rgb(169, 178, 201);
+}
+
+.card {
+  padding: 3rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: rgb(41, 41, 54);
+  border-radius: 8px;
+  filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.4));
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+h1 {
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  font-family: "Palanquin", sans-serif;
+  line-height: 2rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 0.4rem !important;
+}
+
+h2 {
+  padding: 0;
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  font-size: 1.8rem;
+  font-weight: bolder;
+  color: white;
+}
+
+h3 {
+  padding: 0;
+  margin: 0;
+  font-family: "Sen", sans-serif;
+  line-height: 1rem;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  color: white;
+}
+
+h4 {
+  padding: 0;
+  margin: 0;
+  font-family: "Sen", sans-serif;
+  line-height: 1rem;
+  font-size: 0.8rem;
+  font-weight: lighter;
+  color: rgb(169, 178, 201);
+}
+
+p {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+  font-size: 0.9rem;
+}
+
+a {
+  font-family: "Nunito", sans-serif;
+  font-size: 0.85rem;
+  color: rgb(169, 178, 201);
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+.app {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.no-highlight {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

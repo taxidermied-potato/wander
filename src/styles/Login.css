@@ -1,0 +1,170 @@
+main {
+  background-image: url("../images/kirokaze.gif");
+  background-position: center;
+  background-size: cover;
+  image-rendering: pixelated;
+  image-rendering: -moz-crisp-edges;
+  image-rendering: crisp-edges;
+  overflow: hidden;
+  z-index: -1;
+}
+
+main h3 {
+  text-shadow: 0 0 15px rgba(0, 0, 0, 0.8), 0 0 10px rgba(0, 0, 0, 0.9),
+    0 0 5px rgba(0, 0, 0, 1);
+}
+
+main h1 {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.container {
+  position: relative;
+  overflow: hidden;
+}
+
+.logo {
+  position: absolute;
+  top: 1rem;
+  left: 2rem;
+}
+
+.credit {
+  position: absolute;
+  bottom: 1rem;
+  right: 2rem;
+}
+
+.help-text {
+  font-size: 0.75rem;
+}
+
+.content-section-l {
+  max-width: 1000px;
+  height: 100vh;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-box-align: center;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem auto;
+  padding: 0rem 0rem;
+}
+
+.login-card {
+  width: 19rem;
+  padding: 2.5rem;
+  padding-top: 1.5rem;
+  padding-bottom: 2.25rem;
+  background: rgba(38, 41, 56, 0.75);
+  border: 2px solid rgba(147, 152, 179, 0.75);
+  border-radius: 10px;
+  border-top-right-radius: 75px;
+  border-bottom-left-radius: 50px;
+  filter: drop-shadow(0 0 12px rgba(0, 0, 0, 0.7));
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  z-index: 1;
+}
+
+.login-card a {
+  cursor: pointer;
+  color: white;
+  font-size: 0.75rem;
+}
+
+.login-card a:hover {
+  color: rgb(10, 190, 145);
+}
+
+.invis-button {
+  cursor: pointer;
+  padding: 0rem;
+  background: none;
+  border: none;
+  font-size: 0.75rem;
+}
+
+.invis-button:hover {
+  text-decoration: underline;
+}
+
+.swap {
+  cursor: pointer;
+  color: white;
+  font-size: 0.75rem;
+}
+
+.swap:hover {
+  color: rgb(10, 190, 145);
+}
+
+.login-button {
+  font-size: 0.9rem;
+  border-bottom-left-radius: 20px;
+}
+
+.login-button:hover {
+  background: rgb(10, 190, 145);
+}
+
+.under-card {
+  background: rgba(40, 43, 60, 0.6);
+  border: 2px solid rgba(147, 152, 179, 0.6);
+  flex-direction: row;
+  text-align: start;
+  z-index: 0;
+  padding-top: 2rem;
+  padding-right: 2rem;
+  max-width: 18rem;
+}
+
+.under-card h1 {
+  line-height: 1rem;
+}
+
+label {
+  width: 19rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+label p {
+  font-variant: small-caps;
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 0.9rem;
+  transform: translateY(18px) translateX(15px);
+  background: rgba(38, 41, 56, 1);
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+input {
+  color: white;
+  background: transparent;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  margin: 0.5rem 0rem;
+  display: inline-block;
+  border: 1px solid rgb(169, 178, 201);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  box-shadow: 0 0 0px 1px rgb(0, 170, 132);
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-fill-color: white !important;
+}
