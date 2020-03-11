@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/wander/static/css/main.6b2e7ef5.chunk.css",
-    "main.js": "/wander/static/js/main.0d0d6479.chunk.js",
-    "main.js.map": "/wander/static/js/main.0d0d6479.chunk.js.map",
+    "main.js": "/wander/static/js/main.bca6b367.chunk.js",
+    "main.js.map": "/wander/static/js/main.bca6b367.chunk.js.map",
     "runtime-main.js": "/wander/static/js/runtime-main.f86d4f6e.js",
     "runtime-main.js.map": "/wander/static/js/runtime-main.f86d4f6e.js.map",
     "static/js/2.1d1f43dd.chunk.js": "/wander/static/js/2.1d1f43dd.chunk.js",
     "static/js/2.1d1f43dd.chunk.js.map": "/wander/static/js/2.1d1f43dd.chunk.js.map",
     "index.html": "/wander/index.html",
-    "precache-manifest.5460b3b825999926f6e43cc8b4c83531.js": "/wander/precache-manifest.5460b3b825999926f6e43cc8b4c83531.js",
+    "precache-manifest.b9443af1eb4ab233c82a54e76cde4251.js": "/wander/precache-manifest.b9443af1eb4ab233c82a54e76cde4251.js",
     "service-worker.js": "/wander/service-worker.js",
     "static/css/main.6b2e7ef5.chunk.css.map": "/wander/static/css/main.6b2e7ef5.chunk.css.map",
     "static/js/2.1d1f43dd.chunk.js.LICENSE.txt": "/wander/static/js/2.1d1f43dd.chunk.js.LICENSE.txt",
@@ -19,6 +19,6 @@
     "static/js/runtime-main.f86d4f6e.js",
     "static/js/2.1d1f43dd.chunk.js",
     "static/css/main.6b2e7ef5.chunk.css",
-    "static/js/main.0d0d6479.chunk.js"
+    "static/js/main.bca6b367.chunk.js"
   ]
 }
