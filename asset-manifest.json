@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/wander/static/css/main.3535f686.chunk.css",
-    "main.js": "/wander/static/js/main.62d96bf6.chunk.js",
-    "main.js.map": "/wander/static/js/main.62d96bf6.chunk.js.map",
-    "runtime-main.js": "/wander/static/js/runtime-main.f86d4f6e.js",
-    "runtime-main.js.map": "/wander/static/js/runtime-main.f86d4f6e.js.map",
-    "static/js/2.3ee20663.chunk.js": "/wander/static/js/2.3ee20663.chunk.js",
-    "static/js/2.3ee20663.chunk.js.map": "/wander/static/js/2.3ee20663.chunk.js.map",
-    "index.html": "/wander/index.html",
-    "precache-manifest.5a1decf44b2c8e4bf832432433add848.js": "/wander/precache-manifest.5a1decf44b2c8e4bf832432433add848.js",
-    "service-worker.js": "/wander/service-worker.js",
-    "static/css/main.3535f686.chunk.css.map": "/wander/static/css/main.3535f686.chunk.css.map",
-    "static/js/2.3ee20663.chunk.js.LICENSE.txt": "/wander/static/js/2.3ee20663.chunk.js.LICENSE.txt",
-    "static/media/Login.css": "/wander/static/media/kirokaze.8db746ea.gif",
-    "static/media/map-min.png": "/wander/static/media/map-min.9470e17c.png"
+    "main.css": "/static/css/main.dfd7e88a.chunk.css",
+    "main.js": "/static/js/main.a26a7175.chunk.js",
+    "main.js.map": "/static/js/main.a26a7175.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.9048781c.js",
+    "runtime-main.js.map": "/static/js/runtime-main.9048781c.js.map",
+    "static/js/2.1d1f43dd.chunk.js": "/static/js/2.1d1f43dd.chunk.js",
+    "static/js/2.1d1f43dd.chunk.js.map": "/static/js/2.1d1f43dd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.0733cde9e0bc13b048e6506a4d810ae1.js": "/precache-manifest.0733cde9e0bc13b048e6506a4d810ae1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.dfd7e88a.chunk.css.map": "/static/css/main.dfd7e88a.chunk.css.map",
+    "static/js/2.1d1f43dd.chunk.js.LICENSE.txt": "/static/js/2.1d1f43dd.chunk.js.LICENSE.txt",
+    "static/media/Login.css": "/static/media/kirokaze.8db746ea.gif",
+    "static/media/map-min.png": "/static/media/map-min.9470e17c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.f86d4f6e.js",
-    "static/js/2.3ee20663.chunk.js",
-    "static/css/main.3535f686.chunk.css",
-    "static/js/main.62d96bf6.chunk.js"
+    "static/js/runtime-main.9048781c.js",
+    "static/js/2.1d1f43dd.chunk.js",
+    "static/css/main.dfd7e88a.chunk.css",
+    "static/js/main.a26a7175.chunk.js"
   ]
 }
