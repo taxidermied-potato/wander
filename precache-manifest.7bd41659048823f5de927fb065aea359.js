@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "51455f8c4510ffafd7798237af5ff92d",
+    "revision": "c29c253a72a874cd7493fc4c99cf7777",
     "url": "/wander/index.html"
   },
   {
-    "revision": "e2f9a2d731c1c55f6d44",
-    "url": "/wander/static/css/main.d19eb370.chunk.css"
+    "revision": "c3c395177439d933ed34",
+    "url": "/wander/static/css/main.1d5d8e32.chunk.css"
   },
   {
-    "revision": "2d1fb3b7d359772255fe",
-    "url": "/wander/static/js/2.8581c048.chunk.js"
+    "revision": "0f41b2e155a4289c9a7b",
+    "url": "/wander/static/js/2.34c637b1.chunk.js"
   },
   {
-    "revision": "7f3d623d03408f9350c3b5e194511d01",
-    "url": "/wander/static/js/2.8581c048.chunk.js.LICENSE.txt"
+    "revision": "736e6d7b4f4f42c279da5abf09dfaaca",
+    "url": "/wander/static/js/2.34c637b1.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e2f9a2d731c1c55f6d44",
-    "url": "/wander/static/js/main.ff8e34ba.chunk.js"
+    "revision": "c3c395177439d933ed34",
+    "url": "/wander/static/js/main.6f20292f.chunk.js"
   },
   {
     "revision": "c5b655157dce2831edcf",
